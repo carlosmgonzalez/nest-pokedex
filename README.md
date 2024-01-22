@@ -21,6 +21,10 @@ Build the database
 ```
   docker compose up -d
 ```
+Insert the list of pokemons to the database
+```
+  http://localhost:3000/api/v2/seed
+```
 
 ## Running the app
 
